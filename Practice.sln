@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{C568BAF1-A3AC-4E02-A793-10A02FD5A881}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chart3", "Chart3", "{FF0E2C97-CE7F-4EF4-A757-8FBAAAF5753F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chart3.ClassesObjects", "Chart3\Practice.Chart3.ClassesObjects\Practice.Chart3.ClassesObjects.csproj", "{24D92648-9C18-4776-A0F9-D5C6B3C9122C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chart4", "Chart4", "{DB2D8177-FEA0-4DE4-A859-1637CE303479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chart4.TryCatch", "Chart4\Practice.Chart4.TryCatch\Practice.Chart4.TryCatch.csproj", "{446263B2-657A-45DA-842D-8EB747F550A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +17,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C568BAF1-A3AC-4E02-A793-10A02FD5A881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C568BAF1-A3AC-4E02-A793-10A02FD5A881}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C568BAF1-A3AC-4E02-A793-10A02FD5A881}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C568BAF1-A3AC-4E02-A793-10A02FD5A881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D92648-9C18-4776-A0F9-D5C6B3C9122C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D92648-9C18-4776-A0F9-D5C6B3C9122C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D92648-9C18-4776-A0F9-D5C6B3C9122C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D92648-9C18-4776-A0F9-D5C6B3C9122C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446263B2-657A-45DA-842D-8EB747F550A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446263B2-657A-45DA-842D-8EB747F550A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446263B2-657A-45DA-842D-8EB747F550A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446263B2-657A-45DA-842D-8EB747F550A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24D92648-9C18-4776-A0F9-D5C6B3C9122C} = {FF0E2C97-CE7F-4EF4-A757-8FBAAAF5753F}
+		{446263B2-657A-45DA-842D-8EB747F550A4} = {DB2D8177-FEA0-4DE4-A859-1637CE303479}
 	EndGlobalSection
 EndGlobal
