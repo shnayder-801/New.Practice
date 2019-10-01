@@ -6,6 +6,22 @@ namespace Practice.Chapter2.ArithmeticOperations
     {
         static void Main(string[] args)
         {
+            var a = 10;
+            a += 30;
+            Console.WriteLine($"{a}");
+            a -= 4;
+            Console.WriteLine($"{a}");
+            a *= 40;
+            Console.WriteLine($"{a}");
+            a /= 4;
+            Console.WriteLine($"{a}");
+            a <<= 36;
+            Console.WriteLine($"{a}");
+            a >>= 12;
+            Console.WriteLine($"{a}");
+            Console.ReadLine();
+           
+            /*
             int a = 6;
             int b = 48;
             int z = 3;
