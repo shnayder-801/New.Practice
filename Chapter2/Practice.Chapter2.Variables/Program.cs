@@ -6,6 +6,7 @@ namespace Practice.Chapter2.Variables
     {
         static void Main(string[] args)
         {
+            hjgjhgjh
             Console.WriteLine("Введите Вашу фамилию: ");
             var surname = Console.ReadLine();
             Console.WriteLine("Введите Ваше имя: ");
