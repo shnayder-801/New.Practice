@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter2.Conversio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter2.ArithmeticOperations", "Chapter2\Practice.Chapter2.ArithmeticOperations\Practice.Chapter2.ArithmeticOperations.csproj", "{E3627B90-C3F4-4AFC-9687-FCA545487449}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter.DataTypeConversion", "Chapter2\Practice.Chapter.DataTypeConversion\Practice.Chapter.DataTypeConversion.csproj", "{B4260129-EBDD-4745-952C-3576B67B7B98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E3627B90-C3F4-4AFC-9687-FCA545487449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3627B90-C3F4-4AFC-9687-FCA545487449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3627B90-C3F4-4AFC-9687-FCA545487449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4260129-EBDD-4745-952C-3576B67B7B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4260129-EBDD-4745-952C-3576B67B7B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4260129-EBDD-4745-952C-3576B67B7B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4260129-EBDD-4745-952C-3576B67B7B98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{321593DC-DBF3-4993-B823-A6B3C7DE7848} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
 		{7049B5FB-EE68-48A1-B9BE-388A1ADC3995} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
 		{E3627B90-C3F4-4AFC-9687-FCA545487449} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
+		{B4260129-EBDD-4745-952C-3576B67B7B98} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
 	EndGlobalSection
 EndGlobal
