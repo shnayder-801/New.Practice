@@ -6,6 +6,22 @@ namespace Practice.Chapter2.Methods
     {
         static void Main(string[] args)
         {
+
+            Get(40, "question");
+            Console.ReadKey();
+        }
+
+        static void Get(int age, string question)
+        {
+            Console.WriteLine($" Age: {age}, Question: {question}");
+            Console.ReadLine();
+        }
+    }
+}
+
+
+        /*static void Main(string[] args)
+        {
             int a = 20;
             int b = 40;
 
@@ -25,7 +41,7 @@ namespace Practice.Chapter2.Methods
             return x + y;
         }
     }
-}
+}*/
 
 /* private static void Main(string[] args)
  {
