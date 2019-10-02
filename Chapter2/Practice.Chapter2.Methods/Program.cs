@@ -4,30 +4,53 @@ namespace Practice.Chapter2.Methods
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
-            var bet = Get();
-            var vet = SutA();
+            int a = 20;
+            int b = 40;
 
-            Console.WriteLine(bet);
-            Console.WriteLine(vet);
+            int num = Get(a, b);
+            Console.WriteLine(num);
+
+            num = Get(a, 30);
+            Console.WriteLine(num);
+
+            num = Get(a, b + 32 + 34 + 85);
+            Console.WriteLine(num);
             Console.ReadKey();
         }
 
-        private static string Get()
+        static int Get(int x, int y)
         {
-            return "Super";
-        }
-
-        private static int SutA()
-        {
-            var x = 32;
-            var c = 21;
-            var z = x - c;
-            return z;
+            return x + y;
         }
     }
 }
+
+/* private static void Main(string[] args)
+ {
+     var bet = Get();
+     var vet = SutA();
+
+     Console.WriteLine(bet);
+     Console.WriteLine(vet);
+     Console.ReadKey();
+ }
+
+ private static string Get()
+ {
+     return "Super";
+ }
+
+ private static int SutA()
+ {
+     var x = 32;
+     var c = 21;
+     var z = x - c;
+     return z;
+ }
+}
+}*/
 
 
 /*string bet = GetHello();
