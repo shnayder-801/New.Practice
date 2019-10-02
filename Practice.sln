@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter2.Array", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter2.ArraySorting", "Chapter2\Practice.Chapter2.ArraySorting\Practice.Chapter2.ArraySorting.csproj", "{511B8CB3-04AB-4CBD-B11F-59B32B774713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter2.Methods", "Chapter2\Practice.Chapter2.Methods\Practice.Chapter2.Methods.csproj", "{2A3ABEE4-E3C9-4E08-B617-08C1DDE1BB46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{511B8CB3-04AB-4CBD-B11F-59B32B774713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511B8CB3-04AB-4CBD-B11F-59B32B774713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511B8CB3-04AB-4CBD-B11F-59B32B774713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3ABEE4-E3C9-4E08-B617-08C1DDE1BB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3ABEE4-E3C9-4E08-B617-08C1DDE1BB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3ABEE4-E3C9-4E08-B617-08C1DDE1BB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3ABEE4-E3C9-4E08-B617-08C1DDE1BB46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,5 +96,6 @@ Global
 		{7E49E338-D554-4544-9753-A309158E2310} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
 		{1F36D6E6-DC44-4807-BF0F-E4E4D80BE720} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
 		{511B8CB3-04AB-4CBD-B11F-59B32B774713} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
+		{2A3ABEE4-E3C9-4E08-B617-08C1DDE1BB46} = {D05304AB-8C7C-48EE-8207-ED9FCE8198D2}
 	EndGlobalSection
 EndGlobal
