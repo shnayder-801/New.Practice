@@ -10,20 +10,28 @@ namespace Practice.Chapter3.ClassesAndObjects
         public double weight;
         public double height;
 
-        public Date() : this(name:"Леонид", surname:"Тархан")
+        public Date(string name)
         {
+            this.name = name;
         }
-        public Date(string name, string surname) : this(surname, age:41)
+        public Date(string name, string surname, double height) : this(surname)
         {
+            this.surname = surname;
+            this.name = name;
+            this.height = height;
         }
-        public Date(string surname, int age) : this(age, age)
+        public Date(int age, double weight) : this("Леонид", "Тархан", 176.8)
         {
+            this.age = age;
+            this.weight = weight;
         }
-        public Date(int age, double weight) : this(weight, weight)
+        public Date(string name, string surname, int age, double weight, double height) : this(41, 74.5)
         {
-        }
-        public Date(double weight, double height) 
-        {
+            this.surname = surname;
+            this.name = name;
+            this.age = age;
+            this.weight = weight;
+            this.height = height;
         }
 
         public void GetConditions()
@@ -37,7 +45,7 @@ namespace Practice.Chapter3.ClassesAndObjects
     }
         private static void Main(string[] args)
         {
-            Date a = new Date { name = "Леонид", surname = "Тархан", age = 41, weight = 74.5, height = 176.8};
+            Date a = new Date ("Александр", "Тархан", 41, 74.5, 176.8);
             
             a.GetConditions();
             Console.ReadKey();
