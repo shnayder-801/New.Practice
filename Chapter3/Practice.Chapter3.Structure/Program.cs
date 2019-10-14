@@ -2,42 +2,41 @@
 
 namespace Practice.Chapter3.Structure
 {
-    struct User
+    public struct Person
     {
         public string name;
-        public int age;
 
-        public User(string n, int a)
+        public Person(string b) { name = b; }
+
+        public void Get()
         {
-            name = n;
-            age = a;
-        }
-        public void GetInfo()
-        {
-            Console.WriteLine($"{name} - {age}");
+            Console.WriteLine($"{name}");
         }
     }
+
     class Program
     {
         static void Main(string[] args)
         {
-            User[] users = new User[2];
-            users[0] = new User("Bob", 23);
-            //users[0].age = 23;
-
-            users[1].name = "Sam";
-            users[1].age = 43;
-            foreach (User User in users)
-            {
-                User.GetInfo();
-            }
-        
-            User tom =new User("Tom", 33);
-            //tom.name = "Tom";
-            //tom.age = 33;
-
-            tom.GetInfo();
+            Person person=new Person();
+            person.name = "Bob";
+            person.Get();
+           
             Console.ReadKey();
         }
     }
 }
+/*
+struct Person
+{
+    public string name;
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        Person person;
+        Console.WriteLine(person.name);
+        person.name = "Bob";
+    }
+}*/
