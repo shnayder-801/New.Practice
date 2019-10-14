@@ -2,7 +2,52 @@
 
 namespace Practice.Chapter3.ClassesAndObjects
 {
-    class Date
+    internal class Date
+    {
+        public string name;
+        public string surname;
+        public int age;
+        public double weight;
+        public double height;
+
+        public Date() : this(name:"Леонид", surname:"Тархан")
+        {
+        }
+        public Date(string name, string surname) : this(surname, age:41)
+        {
+        }
+        public Date(string surname, int age) : this(age, age)
+        {
+        }
+        public Date(int age, double weight) : this(weight, weight)
+        {
+        }
+        public Date(double weight, double height) 
+        {
+        }
+
+        public void GetConditions()
+        {
+            Console.WriteLine("Введите анкетные данные:");
+            Console.WriteLine($"Имя:{name} \nФамилия:{surname} \nВозраст:{age} \nВес:{weight} \nРост:{height} ");
+        }
+
+    class Program
+    {
+    }
+        private static void Main(string[] args)
+        {
+            Date a = new Date { name = "Леонид", surname = "Тархан", age = 41, weight = 74.5, height = 176.8};
+            
+            a.GetConditions();
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+    /*class Date
     {
         public string name;
         public string surname;
@@ -11,9 +56,6 @@ namespace Practice.Chapter3.ClassesAndObjects
         public double height;
 
         public Date(string a, string b, int c, double z, double x) { name=a; surname=b; age=c; weight = z; height = x; }
-        /*public Date(string b, int c) { surname=b; age = c; }
-        public Date(int c, double z) { age=c; weight=z; }
-        public Date(double z, double x) { weight=z; height=x; }*/
         
         public void GetConditions()
         {
@@ -27,19 +69,13 @@ namespace Practice.Chapter3.ClassesAndObjects
 
         static void Main(string[] args)
         {
-            Date a = new Date("Леонид", "Тархан", 41, 74.5, 176.8); 
-            /*Date b = new Date("Тархан", 41);
-            Date c = new Date(41, 74.5);
-            Date x = new Date(74.5, 176.8);*/
-
-            a.GetConditions();
-            /*b.GetConditions();
-            c.GetConditions();
-            x.GetConditions();*/
-            Console.ReadKey();
+           Date a = new Date("Леонид", "Тархан", 41, 74.5, 176.8); 
+           
+           a.GetConditions();
+           Console.ReadKey();
         }
     }
-}
+}*/
 
 /*class Person
 {
