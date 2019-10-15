@@ -2,7 +2,25 @@
 
 namespace Practice.Chapter3.Structure
 {
-    public struct Person
+    struct Person
+    {
+        public string name;
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Person person;
+            person.name = "Bob";
+
+            Console.WriteLine(person.name);
+            Console.ReadKey();
+        }
+    }
+ }
+
+/*
+     public struct Person
     {
         public string name;
 
@@ -26,6 +44,8 @@ namespace Practice.Chapter3.Structure
         }
     }
 }
+*/
+
 /*
 struct Person
 {
