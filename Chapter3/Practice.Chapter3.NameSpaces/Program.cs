@@ -1,6 +1,34 @@
-﻿
+﻿// импортирование свойств и методов классов
+using System;
+using static System.Console;
+using static System.Math;                         //???????
+using static Practice.Chapter3.NameSpaces.My;     //???????
 
- //использование псевдонимов
+namespace Practice.Chapter3.NameSpaces
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int weight = 70;
+            int year = My.MyI(weight);
+            WriteLine(year);
+            ReadKey();
+        }
+    }
+
+        class My
+        {
+            public static int MyI(int weight)
+            {
+                return  weight / 5;
+                }
+            }
+    }
+
+
+
+/* //использование псевдонимов
 using System;
 using Dot = Practice.Chapter3.NameSpaces.User;
 using Got= System.Console; 
@@ -21,7 +49,7 @@ namespace Practice.Chapter3.NameSpaces
         {
             public string name;
     }
- }
+ }*/
 
 /* //подключение классов из других пространств имен
 using System;
