@@ -1,4 +1,5 @@
 ﻿using System;
+using MyLib;                // подключение библиотеки созданного класса
 
 namespace Practice.Chapter3.ClassesAndObjects
 {
@@ -36,6 +37,9 @@ namespace Practice.Chapter3.ClassesAndObjects
 
         public void GetConditions()
         {
+            Person per= new Person();                          // подключение объекта из библиотеки класса 
+            Console.WriteLine($"{per.name}, {per.age}");
+           
             Console.WriteLine("Введите анкетные данные:");
             Console.WriteLine($"Имя:{name} \nФамилия:{surname} \nВозраст:{age} \nВес:{weight} \nРост:{height} ");
         }

@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter3.ValueAndR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Chapter3.NameSpaces", "Chapter3\Practice.Chapter3.NameSpaces\Practice.Chapter3.NameSpaces.csproj", "{EE2C1AF4-447C-4A0B-863B-886E847ED636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{89E76E1F-9C55-4A16-AC3C-CF127E3D3230}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{EE2C1AF4-447C-4A0B-863B-886E847ED636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2C1AF4-447C-4A0B-863B-886E847ED636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2C1AF4-447C-4A0B-863B-886E847ED636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E76E1F-9C55-4A16-AC3C-CF127E3D3230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E76E1F-9C55-4A16-AC3C-CF127E3D3230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E76E1F-9C55-4A16-AC3C-CF127E3D3230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E76E1F-9C55-4A16-AC3C-CF127E3D3230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -148,5 +154,6 @@ Global
 		{534377D5-7F03-4A1F-94D0-41D913C12160} = {729257DE-6F4F-45E8-B1A0-8143933CFEEE}
 		{08E8DBA9-ACE3-406A-A575-5F555916980A} = {729257DE-6F4F-45E8-B1A0-8143933CFEEE}
 		{EE2C1AF4-447C-4A0B-863B-886E847ED636} = {729257DE-6F4F-45E8-B1A0-8143933CFEEE}
+		{89E76E1F-9C55-4A16-AC3C-CF127E3D3230} = {729257DE-6F4F-45E8-B1A0-8143933CFEEE}
 	EndGlobalSection
 EndGlobal
